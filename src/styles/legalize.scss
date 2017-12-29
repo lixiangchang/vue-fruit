@@ -1,0 +1,63 @@
+.legalize-result-bg {
+  margin-top: 140px;
+  background-repeat: no-repeat;
+}
+.icon-legalize--success {
+  background-image: url('../assets/icon-legalize--01.png');
+  background-size: cover;
+}
+
+.legalize-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 452px;
+    background: url('../assets/bg-withdraw--02.png') no-repeat;
+    background-size: cover;
+    content: '';
+  }
+}
+
+.legalize-feature {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: url('../assets/icon-legalize--05.png') no-repeat;
+  background-size: cover;
+}
+
+.legalize-feature--failure {
+  background: url('../assets/icon-legalize--03.png') no-repeat;
+  background-size: cover;
+}
+
+.legalize-icon {
+  width: 108px;
+  height: 32px;
+  background-repeat: no-repeat;
+}
+.marked-legalize-success {
+  background-image: url('../assets/icon-legalize--07.png');
+  background-size: cover;
+}
+.marked-legalize-failure {
+  background-image: url('../assets/icon-legalize--06.png');
+  background-size: cover;
+}
+
+.icon-legalize--02 {
+  background-image: url('../assets/icon-legalize--02.png');
+  background-size: cover;
+}
+
+.icon-legalize--08 {
+  background-image: url('../assets/icon-legalize--08.png');
+  background-size: cover;
+}

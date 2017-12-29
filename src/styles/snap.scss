@@ -1,0 +1,65 @@
+.snap-column {
+  position: absolute;
+  top: 336px;
+  right: 20px;
+  bottom: 44px;
+  left: 20px;
+  min-height: 827px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.14);
+  .features {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    padding-right: 15px;
+    width: 100%;
+  }
+  .features-item {
+    display: inline-block;
+    margin-right: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #30bf6c;
+    box-shadow: 0 5px 0 #109447;
+    vertical-align: top;
+  }
+}
+.snap-column__title {
+  box-sizing: border-box;
+  margin: 70px 0 0 40px;
+  padding-top: 40px;
+  background: url('../assets/icon-01.png') no-repeat;
+  background-size: cover;
+  color: #30bf6c;
+  text-align: right;
+  font-weight: 400;
+  font-weight: bold;
+  font-size: 36px;
+}
+.snap-column__text {
+  padding: 35px 55px 0;
+  color: #333333;
+  text-indent: 60px;
+  font-weight: 400;
+  font-size: 30px;
+  font-size: 28px;
+  line-height: 44px;
+}
+@for $i from 1 through 3 {
+  .bg-snap--0#{$i} .content:before {
+    display: block;
+    width: 100%;
+    background: url('../assets/bg-snap--0#{$i}.jpg') no-repeat center top;
+    background-size: cover;
+    content: '';
+  }
+}
+
+@for $i from 1 through 6 {
+  .icon-snap--0#{$i} {
+    background: url('../assets/icon-snap--0#{$i}.png') no-repeat;
+    background-size: cover;
+  }
+}
